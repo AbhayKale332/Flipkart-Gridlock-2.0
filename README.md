@@ -8,7 +8,7 @@
 
 > **Leaderboard Score: 91.19 R²** · 4-model ensemble with optimised blending
 
-A production-grade end-to-end ML pipeline featuring **CatBoost + LightGBM ensemble**, OOF-safe target encoding, lag features, cyclical time encoding, and Nelder-Mead optimised blend weights — all in a single reproducible Jupyter notebook.
+A production-grade end-to-end ML pipeline featuring **CatBoost + LightGBM ensemble**, OOF-safe target encoding, lag features, cyclical time encoding, and Nelder-Mead optimised blend weights — all in a single reproducible Kaggle notebook.
 
 ---
 
