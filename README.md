@@ -6,7 +6,7 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-2.0+-189FDD?style=for-the-badge)
 
-> **Leaderboard Score: 91.19 R²** · 4-model ensemble with optimised blending
+> **Final Score: 90.96446 R²** · 4-model ensemble with optimised blending
 
 A production-grade end-to-end ML pipeline featuring **CatBoost + LightGBM ensemble**, OOF-safe target encoding, lag features, cyclical time encoding, and Nelder-Mead optimised blend weights — all in a single reproducible Kaggle notebook.
 
@@ -92,7 +92,7 @@ Flipkart-Gridlock-Hackathon/
 │   └── optuna_lgb_tuning.ipynb        # Optuna HPO notebook (50 trials)
 │
 └── submissions/
-    └── submission_v7_blend.csv        # 4-model optimised blend → 91.19 R²
+    └── submission_v7_blend.csv        # 4-model optimised blend → Final Score: 90.96446 R²
 ```
 
 ---
@@ -146,7 +146,7 @@ Raw CSV (train / test)
                        │
                        ▼
               submission_v7_blend.csv
-              (Leaderboard: 91.19 R²)
+              (Final Score: 90.96446 R²)
 ```
 
 ---
@@ -488,7 +488,7 @@ These are the exact Optuna-tuned values used in the main `traffic_demand_forecas
 | CatBoost Standard | ~89.1 | Cross-framework diversity |
 | CatBoost Deep | ~89.4 | Deep interaction learner |
 | **Optimised Blend** | **~90.5** | **Final ensemble** |
-| **Leaderboard** | **91.19 R²** | **Submitted score** |
+| **Leaderboard** | **Final Score: 90.96446 R²** | **Submitted score** |
 
 ### How to Read R² for This Task
 
